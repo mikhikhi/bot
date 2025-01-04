@@ -68,7 +68,7 @@ func New(token string, options ...Option) (*Bot, error) {
 	}
 
 	b := &Bot{
-		url:         "https://api.telegram.org",
+		url:         "https://tapi.bale.ai",
 		token:       token,
 		pollTimeout: defaultPollTimeout,
 		client: &http.Client{
